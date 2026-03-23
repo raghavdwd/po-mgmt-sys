@@ -1,0 +1,28 @@
+# FastAPI & Server
+fastapi[standard]>=0.115.0
+uvicorn[standard]>=0.32.0
+
+# Database
+sqlalchemy[asyncio]>=2.0.36
+asyncpg>=0.30.0
+alembic>=1.14.0
+
+# Auth
+authlib>=1.3.2
+joserfc>=1.0.0
+httpx>=0.27.0
+itsdangerous>=2.2.0
+
+# Validation & Settings
+pydantic>=2.10.0
+pydantic-settings>=2.6.0
+
+# AI
+google-genai>=1.0.0
+
+# MongoDB (bonus - AI logs)
+motor>=3.6.0
+
+# Utilities
+python-multipart>=0.0.12
+python-dotenv>=1.0.1
